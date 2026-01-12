@@ -8,6 +8,7 @@ import ArticleFooter from "@/components/article-footer"
 import TableOfContents from "@/components/table-of-contents"
 import DiyGuide from "@/components/diy-guide"
 import HappyboxCta from "@/components/happybox-cta"
+import MeaningSection from "@/components/meaning-section"
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
             <ArticleContent />
             <GiftBasketTypes />
             <DiyGuide />
+            <MeaningSection />
             <HappyboxCta />
           </main>
         </div>

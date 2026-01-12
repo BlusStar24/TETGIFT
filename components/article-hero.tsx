@@ -12,7 +12,7 @@ export default function ArticleHero() {
           <div className="space-y-2">
             <p className="text-sm font-semibold text-primary uppercase tracking-widest">Văn hóa Tết Nguyên Đán</p>
             <h1 className="text-5xl md:text-6xl font-bold leading-tight text-balance text-foreground">
-              Tết Nguyên Đán Trao Niềm Vui
+              Tết Nguyên Đán Trao Quà Niềm Vui
             </h1>
           </div>
 

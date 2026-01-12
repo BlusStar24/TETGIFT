@@ -92,48 +92,51 @@ export default function GiftBasketTypes() {
                       {type.number}
                     </div>
                     <div className="space-y-2">
-                      <h3 className="text-2xl font-semibold text-foreground">{type.title}</h3>
+                      <h3 className="text-2xl font-semibold text-foreground">
+                        <a
+                          href={type.link.url}
+                          target="_blank"
+                          rel="noreferrer"
+                          className="hover:text-primary transition-colors"
+                        >
+                          {type.title}
+                        </a>
+                      </h3>
                       <p className="text-base leading-relaxed text-foreground/80">{type.description}</p>
                     </div>
                   </div>
 
                   <div className="grid gap-2 sm:grid-cols-2">
                     {type.highlights.map((item) => (
-                      <div key={item} className="flex items-center gap-2 text-sm text-foreground/80">
+                      <a
+                        key={item}
+                        href={type.link.url}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="flex items-center gap-2 text-sm text-foreground/80 hover:text-primary transition-colors"
+                      >
                         <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-primary/10 text-primary text-xs font-semibold">
                           ✓
                         </span>
-                        {item}
-                      </div>
+                        <span>{item}</span>
+                      </a>
                     ))}
                   </div>
 
-                  <div className="flex flex-wrap items-center gap-4 pt-2">
-                    <a
-                      href={type.link.url}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:underline"
-                    >
-                      {type.link.label}
-                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                      </svg>
-                    </a>
-                    <span className="text-xs uppercase tracking-widest text-foreground/50">HappyBox gợi ý</span>
-                  </div>
                 </div>
 
                 <div className="md:max-w-[260px] w-full">
-                  <div className="relative h-56 md:h-full min-h-[220px] rounded-2xl overflow-hidden border border-border/60">
-                    <Image
-                      src={type.image}
-                      alt={type.imageAlt}
-                      fill
-                      sizes="(min-width: 768px) 260px, 100vw"
-                      className="object-cover"
-                    />
-                  </div>
+                  <a href={type.link.url} target="_blank" rel="noreferrer" className="block">
+                    <div className="relative h-56 md:h-full min-h-[220px] rounded-2xl overflow-hidden border border-border/60">
+                      <Image
+                        src={type.image}
+                        alt={type.imageAlt}
+                        fill
+                        sizes="(min-width: 768px) 260px, 100vw"
+                        className="object-cover"
+                      />
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>

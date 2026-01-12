@@ -77,31 +77,31 @@ export default function HappyboxCta() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {products.map((product) => (
             <div key={product.name} className="rounded-2xl border border-border/70 bg-background p-6 space-y-4">
-              <div className="relative w-full h-60 rounded-xl overflow-hidden border border-border/60">
-                <Image
-                  src={product.image}
-                  alt={product.imageAlt}
-                  fill
-                  sizes="(min-width: 768px) 50vw, 100vw"
-                  className="object-cover"
-                />
-              </div>
+              <a href={product.url} target="_blank" rel="noreferrer" className="block">
+                <div className="relative w-full h-60 rounded-xl overflow-hidden border border-border/60">
+                  <Image
+                    src={product.image}
+                    alt={product.imageAlt}
+                    fill
+                    sizes="(min-width: 768px) 50vw, 100vw"
+                    className="object-cover"
+                  />
+                </div>
+              </a>
               <div>
                 <p className="text-xs uppercase tracking-[0.35em] text-foreground/50 mb-1">Gợi ý</p>
-                <h3 className="text-2xl font-semibold text-foreground">{product.name}</h3>
+                <h3 className="text-2xl font-semibold text-foreground">
+                  <a
+                    href={product.url}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="hover:text-primary transition-colors"
+                  >
+                    {product.name}
+                  </a>
+                </h3>
               </div>
               <p className="text-base text-foreground/80 leading-relaxed">{product.description}</p>
-              <a
-                href={product.url}
-                target="_blank"
-                rel="noreferrer"
-                className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:underline"
-              >
-                Xem chi tiết
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
-              </a>
             </div>
           ))}
         </div>

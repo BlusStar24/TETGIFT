@@ -12,12 +12,12 @@ export default function ArticleHero() {
           <div className="space-y-2">
             <p className="text-sm font-semibold text-primary uppercase tracking-widest">Văn hóa Tết Nguyên Đán</p>
             <h1 className="text-5xl md:text-6xl font-bold leading-tight text-balance text-foreground">
-              Tết Nguyên Đán – Nét đẹp văn hóa truyền thống của người Việt
+              Tết Nguyên Đán Trao Niềm Vui
             </h1>
           </div>
 
           <p className="text-xl text-foreground/70 leading-relaxed text-balance max-w-3xl">
-            Bài viết chia sẻ về ý nghĩa sâu sắc của Tết Nguyên Đán, phong tục truyền thống, và vai trò của giỏ quà Tết
+            Bài viết chia sẻ về ý nghĩa sâu sắc của Tết Nguyên Đán, phong tục truyền thống và vai trò của giỏ quà Tết
             trong việc gìn giữ nét đẹp văn hóa dân tộc.
           </p>
 

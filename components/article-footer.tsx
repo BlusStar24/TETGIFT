@@ -25,7 +25,7 @@ export default function ArticleFooter() {
             </p>
             <div className="space-y-3 pt-4">
               <p className="text-sm text-background/70">
-                <strong>Email:</strong> contact@gioaquatet.vn
+                <strong>Email:</strong> contact@gioquatet.vn
               </p>
               <p className="text-sm text-background/70">
                 <strong>Hotline:</strong> 1800 xxxx

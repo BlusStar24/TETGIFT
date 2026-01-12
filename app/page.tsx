@@ -4,10 +4,8 @@ import Header from "@/components/article-header"
 import ArticleHero from "@/components/article-hero"
 import ArticleContent from "@/components/article-content"
 import GiftBasketTypes from "@/components/gift-basket-types"
-import MeaningSection from "@/components/meaning-section"
 import ArticleFooter from "@/components/article-footer"
 import TableOfContents from "@/components/table-of-contents"
-import TestimonialsSection from "@/components/testimonials-section"
 import DiyGuide from "@/components/diy-guide"
 import HappyboxCta from "@/components/happybox-cta"
 
@@ -29,13 +27,10 @@ export default function Home() {
             <ArticleContent />
             <GiftBasketTypes />
             <DiyGuide />
-            <MeaningSection />
             <HappyboxCta />
           </main>
         </div>
       </div>
-
-      <TestimonialsSection />
 
       <ArticleFooter />
     </div>

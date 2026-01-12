@@ -21,24 +21,6 @@ const customs = [
   },
 ]
 
-const values = [
-  {
-    title: "Giữ trọn đạo lý",
-    description:
-      'Tinh thần "uống nước nhớ nguồn" giúp mỗi người nhớ về cội rễ, trân quý những hy sinh để có ngày Tết sum vầy.',
-  },
-  {
-    title: "Kết nối yêu thương",
-    description:
-      "Tết là dịp cả gia đình cùng kể chuyện, cùng chuẩn bị mâm cỗ, tạo nên những ký ức truyền đời khó quên.",
-  },
-  {
-    title: "Lan tỏa may mắn",
-    description:
-      "Từ phong bao lì xì đến giỏ quà trao tay, mọi hành động đều mang lời chúc tốt lành và niềm tin vào khởi đầu mới.",
-  },
-]
-
 const giftHighlights = [
   {
     title: "Sẻ chia",
@@ -81,13 +63,6 @@ export default function ArticleContent() {
                 để thể hiện lòng biết ơn cùng mong ước một năm mới tốt đẹp.
               </p>
             </div>
-            <div className="rounded-2xl bg-card border border-border p-6 space-y-3">
-              <p className="text-sm font-semibold text-primary uppercase tracking-widest">Giỏ quà Tết</p>
-              <p className="text-base leading-relaxed text-foreground/90">
-                Một trong những nét đẹp không thể thiếu chính là phong tục biếu tặng giỏ quà – hành động gửi trọn yêu
-                thương, sự quan tâm và những lời chúc may mắn đến người thân, bạn bè, đối tác.
-              </p>
-            </div>
           </div>
         </section>
 
@@ -104,25 +79,6 @@ export default function ArticleContent() {
               <div key={custom.title} className="rounded-xl border border-border p-5 bg-background">
                 <h3 className="text-lg font-semibold mb-2 text-primary">{custom.title}</h3>
                 <p className="text-base leading-relaxed text-foreground/80">{custom.description}</p>
-              </div>
-            ))}
-          </div>
-        </section>
-
-        {/* Values Section */}
-        <section id="gia-tri" className="space-y-6">
-          <h2 className="text-2xl md:text-3xl font-bold">Giá trị đạo lý và sự gắn kết gia đình</h2>
-
-          <p className="text-base md:text-lg leading-relaxed text-foreground/90">
-            Câu nói "uống nước nhớ nguồn" mang ý nghĩa sâu sắc trong văn hóa Việt, nhắc nhở mỗi người hướng về cội nguồn
-            và biết ơn gia đình. Trong bối cảnh hiện đại, Tết vẫn là dịp để sum họp, hàn gắn tình cảm và giữ trọn bản sắc.
-          </p>
-
-          <div className="space-y-4">
-            {values.map((value) => (
-              <div key={value.title} className="flex flex-col gap-2 rounded-xl bg-secondary/20 border border-border/80 p-5">
-                <h3 className="text-lg font-semibold text-foreground">{value.title}</h3>
-                <p className="text-base leading-relaxed text-foreground/80">{value.description}</p>
               </div>
             ))}
           </div>

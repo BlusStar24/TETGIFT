@@ -1,7 +1,7 @@
 import Image from "next/image"
 
 import gioQuaTruyenThongImage from "@/image/truyenthong.jpg"
-import gioQuaSucKhoeImage from "@/image/suckhoe.jpg"
+import gioQuaSucKhoeImage from "@/image/suckhoe.png"
 import gioQuaCaoCapImage from "@/image/capcap.jpg"
 import gioQuaDacSanImage from "@/image/dacsan.jpg"
 
@@ -29,7 +29,7 @@ const basketTypes = [
     highlights: ["Yến sào/nhân sâm", "Hạt dinh dưỡng", "Mật ong nguyên chất"],
     link: {
       label: "HPG477 dành cho gia đình",
-      url: "https://happybox.vn/gio-qua-tet-happybox-hpg477",
+      url: "https://happybox.vn/hop-qua-tet-cao-cap-happybox-hph355",
     },
     image: gioQuaSucKhoeImage,
     imageAlt: "Giỏ quà sức khỏe với yến và hạt dinh dưỡng",
@@ -43,7 +43,7 @@ const basketTypes = [
     highlights: ["Rượu vang/whisky ngoại", "Bánh kẹo nhập khẩu", "Hộp quà sang trọng"],
     link: {
       label: "HPH355 dành cho đối tác",
-      url: "https://happybox.vn/hop-qua-tet-cao-cap-happybox-hph355",
+      url: "https://happybox.vn/gio-qua-tet-cao-cap-hpg307",
     },
     image: gioQuaCaoCapImage,
     imageAlt: "Giỏ quà cao cấp với rượu ngoại và bánh kẹo nhập khẩu",

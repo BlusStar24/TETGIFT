@@ -46,7 +46,7 @@ export default function ArticleContent() {
         {/* Introduction Section */}
         <section id="gioi-thieu" className="space-y-6 scroll-mt-20">
           <h2 className="text-3xl md:text-4xl font-bold">
-            Tết Nguyên - Đán Trao quà trao niềm vui
+            Tết Nguyên Đán - Trao quà trao niềm vui
 
           </h2>
 

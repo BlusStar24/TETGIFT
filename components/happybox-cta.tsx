@@ -3,7 +3,7 @@ import Image from "next/image"
 import happybox437 from "@/image/437.png"
 import happybox477 from "@/image/477.png"
 import happybox503 from "@/image/503.png"
-import happybox164 from "@/image/164.png"
+import happybox164 from "@/image/475.jpg"
 
 const reasons = [
   {
@@ -43,11 +43,11 @@ const products = [
     imageAlt: "Giỏ quà HappyBox HPG503 cao cấp",
   },
   {
-    name: "Giỏ quà Tết giá rẻ HappyBox HPG164",
-    description: "Giải pháp tiết kiệm mà vẫn đầy đủ hương vị đặc sản vùng miền.",
-    url: "https://happybox.vn/gio-qua-tet-gia-re-happybox-hpg164",
+    name: "Hộp Quà Tết Lộc Phát Khai Niên HappyBox HPG164",
+    description: "Sản phẩm sức khỏe cao cấp và thiết kế sang trọng.",
+    url: "https://happybox.vn/hop-qua-tet-happybox-hph475",
     image: happybox164,
-    imageAlt: "Giỏ quà HappyBox HPG164 tiết kiệm",
+    imageAlt: "Giỏ quà HappyBox HPG475 tiết kiệm",
   },
 ]
 

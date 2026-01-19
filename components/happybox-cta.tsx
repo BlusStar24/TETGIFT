@@ -43,7 +43,7 @@ const products = [
     imageAlt: "Giỏ quà HappyBox HPG503 cao cấp",
   },
   {
-    name: "Hộp Quà Tết Lộc Phát Khai Niên HappyBox HPG164",
+    name: "Hộp Quà Tết Lộc Phát Khai Niên HappyBox HPG475",
     description: "Sản phẩm sức khỏe cao cấp và thiết kế sang trọng.",
     url: "https://happybox.vn/hop-qua-tet-happybox-hph475",
     image: happybox164,
